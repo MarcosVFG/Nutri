@@ -33,7 +33,7 @@ export default function Home() {
         image concerns make peace with food and their 
         bodies.
         </p>
-        <button className={styles.botao}>Learn How >>></button>
+        <button className={styles.botao}>Learn How</button>
       </div>
       <img src='/comida.jpg' className={styles.comida}/>
       <a href="https://wa.me/552192485067" target="_blank"><img src='/wpp.png' className={styles.wpp}/></a>
