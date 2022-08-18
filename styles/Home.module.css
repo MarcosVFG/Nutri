@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2%;
+  background-color: #60d394;
+  height: 75px;
+  width: 100%;
+  display: flex;
+}
+
+.letters:hover {
+  color: #FFD97D;
+}
+
+.bcg {
+  width: 100%;
+}
+
+.homem {
+  position: absolute;
+  left: 10%;
+  top: 23%;
+  width: 45%;
+}
+
+.square {
+  position: absolute;
+  left: 45%;
+  top: 32%;
+  width: 450px;
+  height: 280px;
+  background-color: #fff;
+  font-family: 'Dosis', sans-serif;
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+.paragraph {
+  font-size: 125%;
+}
+
+.botao {
+  width: 40%;
+  height: 15%;
+  border: #AAF683 solid 1px;
+  border-radius: 2px;
+  background-color: #60d394;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.botao:hover {
+  color: #fff;
+  border: #AAF683 solid 3px;
+}
+
+.comida {
+  width: 100%;
+}
+
+.wpp {
+  width: 5%;
+  position: absolute;
+  top: 85%;
+  right: 5%;
+}
+
