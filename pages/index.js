@@ -30,7 +30,7 @@ export default function Home() {
       <Image src={fundo} className={styles.bcg} />
       <Image src={homem} className={styles.homem} />
       <div className={styles.square}>
-        <h1> Hey! I'm John.</h1>
+        <h1> Hey! Im John.</h1>
         <p className={styles.paragraph}>
           I help women and men who struggle with
         chronic dieting, disordered eating, and body
@@ -40,7 +40,7 @@ export default function Home() {
         <button className={styles.botao}>Learn How</button>
       </div>
       <Image src={comida} className={styles.comida} />
-      <a href="https://wa.me/552192485067" target="_blank"><img src='/wpp.png' className={styles.wpp}/></a>
+      <a href="https://wa.me/552192485067" rel="noreferrer" target="_blank"><img src='/wpp.png' className={styles.wpp}/></a>
     </div>
   )
 }
