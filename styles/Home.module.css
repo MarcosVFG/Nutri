@@ -23,6 +23,7 @@
 
 .bcg {
   width: 100%;
+  height: auto
 }
 
 .homem {
@@ -30,6 +31,7 @@
   left: 10%;
   top: 23%;
   width: 45%;
+  height: auto
 }
 
 .square {

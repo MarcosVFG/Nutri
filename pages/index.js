@@ -1,9 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from 'next/future/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import fundo from '../public/fundo.jpg'
+import homem from '../public/homem.jpg'
+import comida from '../public/comida.jpg'
 
 export default function Home() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -23,8 +27,8 @@ export default function Home() {
         <a className={styles.letters}>Contact</a>
         </Link>
       </header>
-      <img src='/fundo.jpg' className={styles.bcg}/>
-      <img src='/homem.jpg' className={styles.homem}/>
+      <Image src={fundo} className={styles.bcg} />
+      <Image src={homem} className={styles.homem} />
       <div className={styles.square}>
         <h1> Hey! I'm John.</h1>
         <p className={styles.paragraph}>
@@ -35,7 +39,7 @@ export default function Home() {
         </p>
         <button className={styles.botao}>Learn How</button>
       </div>
-      <img src='/comida.jpg' className={styles.comida}/>
+      <Image src={comida} className={styles.comida} />
       <a href="https://wa.me/552192485067" target="_blank"><img src='/wpp.png' className={styles.wpp}/></a>
     </div>
   )
